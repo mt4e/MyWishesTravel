@@ -11,7 +11,7 @@ import lombok.*;
 @ToString @EqualsAndHashCode
 @Entity
 @Getter @Setter
-public class Car {
+public class User {
 
   @Id
   @GeneratedValue
