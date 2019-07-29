@@ -1,6 +1,12 @@
 #IntelliJ
 .idea/
 
+#Eclipse
+.classpath
+.project
+.settings/
+target/classes/META-INF/
+
 # Compiled class file
 *.class
 
