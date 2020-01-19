@@ -1,21 +1,19 @@
 package com.mt4e.dev.demo;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.validation.constraints.NotNull;
-import lombok.*;
-
-
-@NoArgsConstructor
-@ToString @EqualsAndHashCode
-@Entity
-@Getter @Setter
 public class User {
+	private String status;
 
-  @Id
-  @GeneratedValue
-  private int id;
+	public User(String status) {
+		this.status = status;
+	}
 
-  private @NotNull String name;
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
 }
+

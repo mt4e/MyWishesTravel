@@ -1,1 +1,8 @@
-com/mt4e/dev/demo/CoolCarController.class
+com\mt4e\dev\demo\User.class
+META-INF\MANIFEST.MF
+META-INF\maven\com.mt4e.dev\demo\pom.xml
+com\mt4e\dev\demo\UserController.class
+com\mt4e\dev\demo\UserDto.class
+com\mt4e\dev\demo\SecurityConfig.class
+com\mt4e\dev\demo\DemoApplication.class
+META-INF\maven\com.mt4e.dev\demo\pom.properties
